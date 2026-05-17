@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Reality Stack · 现实技术栈 — The Architecture of Existence" }],
     title: "Reality Stack · The Architecture Diagram of Existence",
     description:
       "Ten layers, one universe. From quantum fields to recursive AI — a bilingual cinematic exploration of how reality stacks itself.",
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Reality Stack · 现实技术栈",
     description:
